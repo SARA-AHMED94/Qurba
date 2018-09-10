@@ -1,0 +1,12 @@
+@import '../../scss/variables';
+@import '../../scss/mixins';
+.mapView{
+    .btn{
+        background-color: $primaryColor;       
+    }   
+    .mymap{
+        agm-map {
+            height: 100vh;
+          }        
+    }
+}

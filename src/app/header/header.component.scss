@@ -1,0 +1,19 @@
+@import '../../scss/general';
+@import '../../scss/mixins';
+header{
+    nav{
+        height: 8vh;
+        .logo{         
+            @include font_p(1.5rem);                 
+        }
+        .logo:hover{   
+            text-decoration: none;      
+        } 
+    }
+    .backGround{
+        height: 38vh;
+        background-image: url('../../assets/images/header/bg_header.jpg');
+        // extend class bg in general file
+        @extend .bg;
+    }
+}

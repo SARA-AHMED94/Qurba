@@ -1,0 +1,21 @@
+@import '../../scss/variables';
+@import '../../scss/mixins';
+.cardView{
+    .btn{
+        background-color: $primaryColor;       
+    }
+    h5{
+        @include font_h5(1.125rem); 
+        color:$thirdColor;
+        font-family: raleway;
+    }
+    p{
+        @include font_p(.875rem); 
+    }
+    .card{
+        i{
+            color: $secondaryColor;
+        }
+    }
+ 
+}
